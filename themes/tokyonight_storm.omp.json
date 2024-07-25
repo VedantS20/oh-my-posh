@@ -23,6 +23,12 @@
     {
       "alignment": "left",
       "segments": [
+          {
+            "type": "python",
+            "style": "powerline",
+            "foreground": "#45CE30",
+            "template": " ({{ .Venv }}) "
+          },
         {
           "type": "text",
           "style": "plain",
